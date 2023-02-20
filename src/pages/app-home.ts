@@ -131,6 +131,7 @@ export class AppHome extends LitElement {
           </sl-card>
 
           <sl-button href="${(import.meta as any).env.BASE_URL}about" variant="primary">Navigate to About</sl-button>
+          <sl-button href="${(import.meta as any).env.BASE_URL}new-page" variant="primary">Navigate to New Page</sl-button>
         </div>
       </main>
     `;
